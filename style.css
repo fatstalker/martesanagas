@@ -1,8 +1,9 @@
 header {
-
-	background-color: #898ada;
+	background-color: #a5a6f1;
 
 	padding: 60px;
+
+  border-radius: 300px;
 
 	margin-bottom: 50px;
 
@@ -10,73 +11,21 @@ header {
 
 	text-align: center;
 
-
-  
-
-  
-
   }
   
 
-  
-
-  ul {
-
-	list-style: none;
-
-	padding: 0;
-
-	margin: 0;
-
-	border-bottom: 50px #000;
-
-	
-
+  * {
+    background-color: #e7e9f5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.7%;
   }
 
   
-
-  li {
-
-	display: inline;
-
-	margin-right: 10px;
-
-  }
-
-  
-
-  a {
-
-	text-decoration: none;
-
-	color: #fff;
-
-  }
-
-
-
-  .logo {
-
-	width: 200px; /* Aggiusta la larghezza del logo secondo necessità */
-
-	height: auto;
-
-	float: left;
-
-	position: relative;
-
-	top: -60px;
-
-	margin-right: 10px;
-
-  }
-
 
 
   section {
 
-  border-top: 1px solid #000;
+  border-top: 1px solid #000;   /*bordo superiore fa da linea separatrice*/
 
   padding-top: 20px;
 
@@ -87,128 +36,29 @@ header {
 
 
 h2 {text-align: center;
-
-
-
-}
-
-
-
-header nav ul li {
-
-	position: relative;
-
-  }
-
-  
-
-  header nav ul li::after {
-
-	content: "";
-
-	position: absolute;
-
-	bottom: -2px;
-
-	left: 0;
-
-	width: 100%;
-
-	height: 2px;
-
-	background-color: #000;
-
-  }
-
-
-
-  
-
-  .caption {
-
-    font-family: Verdana, sans-serif;
-
-    font-size: 10px;
-
-    float: left;
-
-    margin: 0;
-
-    padding: 0;
-
-    position: relative;
-
-    overflow: hidden;
+  font-weight: 1000;    /*bold sembra non funzionare. bo*/
+  margin-top: 40px;
+  margin-bottom: 20px;
 
 }
 
-.caption img {
 
-    float: left;
 
-    margin: 0;
-
-    padding: 0;
-
-    background: #fff;
-
-    border: none;
-
-}
-
-.caption span {
-
-    float: left;
-
-    margin: 0;
-
-    padding: 10px;
-
-    width: 100%;
-
-    color: #dedede;
-
-    background: #222; /* browser che non supportano rgba */
-
-    background: rgba(0,0,0,0.7);
-
-    position: absolute;
-
-    left: 0;
-
-    bottom: 0;
-
-}
-
-.caption span strong {
-
-    font-weight: bold;
-
-    font-size: 11px;
-
-    text-transform: uppercase;
-
-    display: block;
-
-    padding-bottom: 5px;
-
-}
-
-footer {
-text-align: center;
-}
-
-* {
-  margin: 0.7%;
-}
 
 .center-container {
   text-align:center;
 }
 
-.centered-image {
+
+
+img {
+  border-radius: 30px;  /*smussa gli angoli dell'immagine*/
+  margin-bottom: 40px;
+  max-width: 80%;
+  height: auto;
   display: inline-block;
-  max-width: 80%; /* Ensures the image doesn't exceed its original size */
-    height: auto; /* Maintains the image's aspect ratio */
-    margin: 0 auto; /* Centers the image horizontally */
+}
+
+.main-text {
+  text-align: justify;
 }
