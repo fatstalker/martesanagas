@@ -25,12 +25,16 @@ header {
 
   section {
 
-  border-top: 1px solid #000;   /*bordo superiore fa da linea separatrice*/
+  border-top: 2px solid #000;   /*bordo superiore fa da linea separatrice*/
 
   padding-top: 20px;
 
   margin-top: 20px;
 
+}
+
+#home {
+  border-top: white;            /*rimuove la prima linea*/
 }
 
 
