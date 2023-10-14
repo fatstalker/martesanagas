@@ -12,6 +12,7 @@
 	color: #fff;
 
 	text-align: center;
+
   font-size: 30px;
 
   }
@@ -19,7 +20,9 @@
 
   * {
     background-color: #f8e1c3;
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     margin: 0.7%;
   }
 
@@ -34,13 +37,20 @@
 
   margin-top: 20px;
 
+  display: grid;
+
+  grid-template-columns: 50% 50%;
+
 }
 
 
 
 h2 {text-align: center;
+
   font-weight: 1000;    /*bold sembra non funzionare. bo*/
+
   margin-top: 40px;
+
   margin-bottom: 20px;
 
 }
@@ -56,12 +66,21 @@ h2 {text-align: center;
 
 img {
   border-radius: 30px;  /*smussa gli angoli dell'immagine*/
+
   margin-bottom: 40px;
-  max-width: 80%;
+
+  max-width: 50%;
+
   height: auto;
+
   display: inline-block;
 }
 
+
 .main-text {
   text-align: justify;
+
+  margin-top: 5%;
+  
+  font-size: 20px;
 }
