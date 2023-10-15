@@ -84,3 +84,9 @@ img {
   
   font-size: 20px;
 }
+
+button a {
+  color:rgb(219, 44, 44);
+  background-color: transparent;
+  font-weight: bold;
+}
