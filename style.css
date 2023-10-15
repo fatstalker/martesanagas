@@ -90,3 +90,31 @@ button a {
   background-color: transparent;
   font-weight: bold;
 }
+
+button {
+  background-color: rgb(236, 177, 159);
+  border-width: 3px;
+  border-color: #5c2c2c;
+}
+
+button:hover {
+  background-color: #eed0cc;
+  transform: scale(1.05);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+
+header {
+  animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+
