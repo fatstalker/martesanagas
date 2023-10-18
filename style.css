@@ -20,7 +20,7 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: left;
   text-align: center;
 }
 
@@ -46,12 +46,7 @@
   padding-top: 20px;
 
   margin-top: 20px;
-
-  display: grid;
-
-  grid-template-columns: 50% 50%;
-
-}
+  }
 
 
 
@@ -70,6 +65,7 @@ h2 {text-align: center;
 
 .center-container {
   text-align:center;
+  margin: auto;
 }
 
 
@@ -81,13 +77,12 @@ img {
 
   max-width: 50%;
 
-  height: 220;
 
   display: inline-block;
 
   min-width: 200px;
 
-  width: fit-content;
+
 
 }
 
@@ -99,7 +94,7 @@ img {
   
   font-size: 20px;
 
-  max-width: 600px;
+  max-width: 500px;
 }
 
 button a {
@@ -135,19 +130,15 @@ header {
 }
 
 
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
 
 section {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
+}
+
+div {
+  max-width: 700px;
 }
